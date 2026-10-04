@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Scenvora.pk</title>
+    
+    <link rel="icon" href="pics/logo-scenvora.jpeg" type="image/x-icon">
+
+    <meta name="description" content="Discover Scenvora's premium fragrance collection. Crafted for those who leave an impression.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->  
+    <link rel="stylesheet" href="scenvora(2).css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+
+            <a href="#" class="logo" style="display:flex; align-items:center; flex-direction:row; gap:12px;">
+            <img src="pics/logo-scenvora.jpeg" style="width:32px; height:32px; border-radius:50%;">
+            SCENVORA.pk
+            </a>
+
+            <nav class="nav" id="nav">
+                <a href="#home">Home</a>
+                <a href="#collection">Collection</a>
+                <a href="#story">Our Story</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="icon-btn" aria-label="Search">
+                    <span>⌕</span>
+                </button>
+
+                <button class="cart-btn" id="cartBtn" aria-label="Shopping Cart">
+                    <span>♧</span>
+                    <small id="cartCount">0</small>
+                </button>
+
+                <button class="menu-btn" id="menuBtn" aria-label="Open Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+                <div id="searchBox" style="display:none; position:absolute; top:70px; right:20px; background:#111; padding:12px; border:1px solid #333; border-radius:10px; z-index:10000; width:260px;">
+                    <input type="text" id="searchInput" placeholder="Search perfume... e.g Dior" style="padding:10px 12px; background:#0A0A0A; color:white; border:1px solid #444; border-radius:6px; outline:none; width:100%; box-sizing:border-box;">
+                    <p id="noResults" style="display:none; color:#ff6b6b; font-size:13px; margin:8px 0 0 2px;">No perfume found for "<span id="searchTerm"></span>"</p>
+                </div>
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <main>
+
+        <section class="hero" id="home">
+
+            
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+
+                <p class="eyebrow">THE ART OF FRAGRANCE</p>
+
+                <h1>
+                    A Scent That
+                    <span>Defines You.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Discover an unforgettable collection of premium fragrances
+                    crafted for those who leave a lasting impression.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#collection" class="btn btn-primary">
+                        Explore Collection
+                    </a>
+
+                    <a href="#story" class="btn btn-outline">
+                        Discover Scenvora
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-scroll">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="scroll-line"></div>
+            </div>
+
+            <div class="hero-image">
+            <img src="pics/Professor.jpeg" alt="Scenvora Perfume">
+            </div>
+
+        </section>
+
+
+        <!-- ================= INTRO ================= -->
+        <section class="intro section">
+
+            <div class="container intro-grid">
+
+                <div>
+                    <p class="eyebrow">SCENVORA</p>
+
+                    <h2>
+                        Fragrance is more than
+                        <em>a scent.</em>
+                    </h2>
+                </div>
+
+                <div class="intro-description">
+                    <p>
+                        It is a memory. A feeling. A signature.
+                    </p>
+
+                    <p>
+                        At Scenvora, we believe every individual deserves
+                        a fragrance that feels uniquely theirs. Our collection
+                        brings together refined character, modern elegance,
+                        and unforgettable presence.
+                    </p>
+
+                    <a href="#story" class="text-link">
+                        Our Story <span>→</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COLLECTION ================= -->
+        <section class="collection section" id="collection">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <p class="eyebrow">THE COLLECTION</p>
+
+                        <h2>
+                            Six scents.
+                            <em>One identity.</em>
+                        </h2>
+                    </div>
+
+                    <a href="#" class="text-link">
+                        View All <span>→</span>
+                    </a>
+
+                </div>
+
+
+                <div class="products-grid">
+
+                    <!-- Product 01 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+                            <span class="product-number">01</span>
+
+                            <div class="image-placeholder">
+                                PERFUME
+                            </div>
+
+                            <button class="quick-add"
+                                    data-product="Perfume 01">
+                                + ADD
+                            </button>
+                        </div>
+
+                        <div class="product-info">
+                            <div>
+                                <h3>Signature No. 01</h3>
+                                <p>Woody · Amber · Musk</p>
+                            </div>
+
+                            <span class="price">PKR 0,000</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 02 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+                            <span class="product-number">02</span>
+
+                            <div class="image-placeholder">
+                                PERFUME
+                            </div>
+
+                            <button class="quick-add"
+                                    data-product="Perfume 02">
+                                + ADD
+                            </button>
+                        </div>
+
+                        <div class="product-info">
+                            <div>
+                                <h3>Signature No. 02</h3>
+                                <p>Floral · Vanilla · Musk</p>
+                            </div>
+
+                            <span class="price">PKR 0,000</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 03 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+                            <span class="product-number">03</span>
+
+                            <div class="image-placeholder">
+                                PERFUME
+                            </div>
+
+                            <button class="quick-add"
+                                    data-product="Perfume 03">
+                                + ADD
+                            </button>
+                        </div>
+
+                        <div class="product-info">
+                            <div>
+                                <h3>Signature No. 03</h3>
+                                <p>Citrus · Oud · Amber</p>
+                            </div>
+
+                            <span class="price">PKR 0,000</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 04 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+                            <span class="product-number">04</span>
+
+                            <div class="image-placeholder">
+                                PERFUME
+                            </div>
+
+                            <button class="quick-add"
+                                    data-product="Perfume 04">
+                                + ADD
+                            </button>
+                        </div>
+
+                        <div class="product-info">
+                            <div>
+                                <h3>Signature No. 04</h3>
+                                <p>Fresh · Marine · Woods</p>
+                            </div>
+
+                            <span class="price">PKR 0,000</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 05 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+                            <span class="product-number">05</span>
+
+                            <div class="image-placeholder">
+                                PERFUME
+                            </div>
+
+                            <button class="quick-add"
+                                    data-product="Perfume 05">
+                                + ADD
+                            </button>
+                        </div>
+
+                        <div class="product-info">
+                            <div>
+                                <h3>Signature No. 05</h3>
+                                <p>Rose · Oud · Saffron</p>
+                            </div>
+
+                            <span class="price">PKR 0,000</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 06 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+                            <span class="product-number">06</span>
+
+                            <div class="image-placeholder">
+                                PERFUME
+                            </div>
+
+                            <button class="quick-add"
+                                    data-product="Perfume 06">
+                                + ADD
+                            </button>
+                        </div>
+
+                        <div class="product-info">
+                            <div>
+                                <h3>Signature No. 06</h3>
+                                <p>Leather · Spice · Woods</p>
+                            </div>
+
+                            <span class="price">PKR 0,000</span>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURED ================= -->
+        <section class="featured">
+
+            <div class="featured-overlay"></div>
+
+            <div class="container featured-content">
+
+                <p class="eyebrow">THE SIGNATURE EXPERIENCE</p>
+
+                <h2>
+                    Leave a trace
+                    <em>behind.</em>
+                </h2>
+
+                <p>
+                    Designed to be remembered long after you leave the room.
+                </p>
+
+                <a href="#collection" class="btn btn-primary">
+                    Discover the Collection
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WHY SCENVORA ================= -->
+        <section class="why section">
+
+            <div class="container">
+
+                <div class="section-heading centered">
+
+                    <p class="eyebrow">WHY SCENVORA</p>
+
+                    <h2>
+                        Crafted with
+                        <em>intention.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="features-grid">
+
+                    <div class="feature">
+                        <span class="feature-number">01</span>
+
+                        <h3>Premium Craftsmanship</h3>
+
+                        <p>
+                            Every fragrance is created with attention to
+                            character, balance and detail.
+                        </p>
+                    </div>
+
+
+                    <div class="feature">
+                        <span class="feature-number">02</span>
+
+                        <h3>Unforgettable Character</h3>
+
+                        <p>
+                            Distinct compositions designed to create
+                            a signature presence.
+                        </p>
+                    </div>
+
+
+                    <div class="feature">
+                        <span class="feature-number">03</span>
+
+                        <h3>Made to Be Remembered</h3>
+
+                        <p>
+                            Scents that become part of your identity
+                            and your most memorable moments.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= NOTES ================= -->
+        <section class="notes section">
+
+            <div class="container notes-grid">
+
+                <div class="notes-content">
+
+                    <p class="eyebrow">THE FRAGRANCE JOURNEY</p>
+
+                    <h2>
+                        From the first note
+                        <em>to the last.</em>
+                    </h2>
+
+                    <p>
+                        A great fragrance evolves on your skin. Explore the
+                        layers that create the Scenvora experience.
+                    </p>
+
+                </div>
+
+
+                <div class="notes-list">
+
+                    <div class="note">
+                        <span>01</span>
+
+                        <div>
+                            <h3>Top Notes</h3>
+                            <p>First impression · Fresh · Bright</p>
+                        </div>
+                    </div>
+
+
+                    <div class="note">
+                        <span>02</span>
+
+                        <div>
+                            <h3>Heart Notes</h3>
+                            <p>The character · Rich · Refined</p>
+                        </div>
+                    </div>
+
+
+                    <div class="note">
+                        <span>03</span>
+
+                        <div>
+                            <h3>Base Notes</h3>
+                            <p>The signature · Deep · Lasting</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= STORY ================= -->
+        <section class="story section" id="story">
+
+            <div class="container story-grid">
+
+                <div class="story-image">
+                    <div class="story-placeholder">
+                        SCENVORA
+                    </div>
+                </div>
+
+
+                <div class="story-content">
+
+                    <p class="eyebrow">OUR STORY</p>
+
+                    <h2>
+                        Born from the
+                        <em>power of scent.</em>
+                    </h2>
+
+                    <p>
+                        Scenvora was created around a simple belief:
+                        fragrance should be an extension of who you are.
+                    </p>
+
+                    <p>
+                        From quiet moments to unforgettable nights,
+                        our fragrances are designed to accompany
+                        every version of you.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Learn More <span>→</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= REVIEWS ================= -->
+        <section class="reviews section">
+
+            <div class="container">
+
+                <div class="section-heading centered">
+
+                    <p class="eyebrow">THE SCENVORA EXPERIENCE</p>
+
+                    <h2>
+                        Loved by those who
+                        <em>wear it.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="reviews-grid">
+
+                    <article class="review">
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            “A beautifully refined fragrance. The scent
+                            feels premium from the first spray.”
+                        </p>
+
+                        <span>— Customer Name</span>
+                    </article>
+
+
+                    <article class="review">
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            “The packaging, fragrance and overall experience
+                            feel incredibly luxurious.”
+                        </p>
+
+                        <span>— Customer Name</span>
+                    </article>
+
+
+                    <article class="review">
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            “Scenvora has become one of my favourite
+                            fragrances for special occasions.”
+                        </p>
+
+                        <span>— Customer Name</span>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= NEWSLETTER ================= -->
+        <section class="newsletter">
+
+            <div class="container newsletter-content">
+
+                <p class="eyebrow">STAY IN THE SCENT</p>
+
+                <h2>
+                    Be the first to
+                    <em>discover.</em>
+                </h2>
+
+                <p>
+                    Join our world of fragrance, launches and exclusive
+                    Scenvora moments.
+                </p>
+
+                <form class="newsletter-form">
+
+                    <input
+                        type="email"
+                        placeholder="Your email address"
+                        required
+                    >
+
+                    <button type="submit">
+                        Subscribe →
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer" id="contact">
+
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        SCENVORA
+                    </a>
+
+                    <p>
+                        A scent that defines you.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-links">
+
+                    <div>
+                        <h4>Explore</h4>
+
+                        <a href="#home">Home</a>
+                        <a href="#collection">Collection</a>
+                        <a href="#story">Our Story</a>
+                    </div>
+
+
+                    <div>
+                        <h4>Help</h4>
+
+                        <a href="#">Shipping</a>
+                        <a href="#">Returns</a>
+                        <a href="#">FAQs</a>
+                    </div>
+
+
+                    <div>
+                        <h4>Connect</h4>
+
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">WhatsApp</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 Scenvora. All rights reserved.
+                </p>
+
+                <p>
+                    Crafted for those who leave an impression.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= CART PANEL ================= -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <aside class="cart-panel" id="cartPanel">
+
+        <div class="cart-header">
+
+            <h2>Your Cart</h2>
+
+            <button id="closeCart">
+                ×
+            </button>
+
+        </div>
+
+
+        <div class="cart-items" id="cartItems">
+
+            <div class="empty-cart">
+                <p>Your cart is empty.</p>
+                <span>Add a fragrance to begin.</span>
+            </div>
+
+        </div>
+
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+                <span>Total</span>
+                <strong id="cartTotal">PKR 0</strong>
+            </div>
+
+            <button class="checkout-btn">
+                Proceed to Checkout
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script src="product.js"></script>
+
+</body>
+</html>
